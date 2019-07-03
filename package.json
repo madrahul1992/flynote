@@ -1,0 +1,28 @@
+{
+  "name": "flynote",
+  "version": "1.0.0",
+  "description": "Expression Evaluator",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon node index.js",
+    "start": "pm2 start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.5",
+    "cls-hooked": "^4.2.2",
+    "config": "^3.1.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "http-errors": "^1.7.3",
+    "mongoose": "^5.6.2",
+    "morgan": "^1.9.1",
+    "pm2": "^3.5.1",
+    "redis": "^2.8.0",
+    "uniqid": "^5.0.3",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^3.9.0"
+  }
+}

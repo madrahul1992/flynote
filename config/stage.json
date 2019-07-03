@@ -1,0 +1,11 @@
+{
+  "log": {
+    "dir": "logs/"
+  },
+  "redis" : {
+    "host": "127.0.0.1",
+    "port": 6379,
+    "db": 7
+  },
+  "mongodb": "mongodb://localhost:27017/math"
+}
