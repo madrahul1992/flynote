@@ -4,9 +4,9 @@
   "description": "Expression Evaluator",
   "main": "index.js",
   "scripts": {
+    "test":"mocha test/*.js --exit",
     "start-dev": "nodemon node index.js",
-    "start": "pm2 start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pm2 start"
   },
   "author": "Rahul",
   "license": "ISC",
@@ -26,6 +26,9 @@
     "winston-daily-rotate-file": "^3.9.0"
   },
   "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4",
     "nodemon": "^1.19.1"
   }
 }
